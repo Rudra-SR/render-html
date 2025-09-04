@@ -21,4 +21,7 @@ from app1.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('money/', money, name='money'),
+    path('f1/', f1, name='f1'),
+    path('f2/', f2, name='f2'),
+    path('f3/', f3, name='f3'),
 ]
