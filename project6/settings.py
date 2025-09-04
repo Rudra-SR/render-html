@@ -14,7 +14,8 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+import os
+TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
@@ -51,8 +52,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'project6.urls'
-
-TEMPLATE_DIR='C:\\Users\\rudre\\DJ A3\\rudra\\Scripts\\project6\\templates'
 
 TEMPLATES = [
     {
